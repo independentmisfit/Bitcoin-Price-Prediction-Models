@@ -14,14 +14,15 @@ The dataset includes daily closing prices of Bitcoin from June 2010 to August 20
 Installation
 To run the code, you'll need the following Python packages:
 
-'''bash
+```
 pip install numpy pandas scikit-learn tensorflow statsmodels matplotlib xgboost
-Clone the repository: '''
+Clone the repository:
+```
 
-''' bash
+```
 git clone https://github.com/yourusername/Bitcoin-Price-Prediction-Models.git
 cd Bitcoin-Price-Prediction-Models
-'''
+```
 ## **Usage**
 Prepare the Data:
 Load the dataset and perform basic data preprocessing (i.e., handling missing values, normalization, etc.).
