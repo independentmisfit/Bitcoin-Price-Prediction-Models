@@ -4,7 +4,7 @@
 ## Overview
 This repository contains the code and resources for predicting Bitcoin prices using three distinct modeling approaches: ARIMA (statistical), XGBoost (machine learning), and LSTM (deep learning). The project demonstrates how different models perform on highly volatile time series data, such as Bitcoin prices, and compares their effectiveness using RMSE, MAE, and MAPE metrics. The data used spans from June 2010 to August 2024, and the models are evaluated based on their ability to predict Bitcoin prices for September 2024.
 
-## ^^Models Used**
+## **Models Used**
 - ARIMA: A statistical model that captures linear dependencies in time series data.
 - XGBoost: A machine learning algorithm known for its accuracy and speed in handling structured data.
 - LSTM: A deep learning model designed for sequential data and long-term dependencies, making it suitable for volatile time series like Bitcoin.
@@ -16,12 +16,12 @@ To run the code, you'll need the following Python packages:
 
 '''bash
 pip install numpy pandas scikit-learn tensorflow statsmodels matplotlib xgboost
-Clone the repository:
+Clone the repository: '''
 
 ''' bash
 git clone https://github.com/yourusername/Bitcoin-Price-Prediction-Models.git
 cd Bitcoin-Price-Prediction-Models
-
+'''
 ## **Usage**
 Prepare the Data:
 Load the dataset and perform basic data preprocessing (i.e., handling missing values, normalization, etc.).
